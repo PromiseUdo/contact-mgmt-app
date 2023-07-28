@@ -4,6 +4,9 @@ This is a frontend implementation of a contact management app, which enables a u
 
 This also includes a landing page for the application, which includes buttons redirecting to the contact page and the charts and maps page.
 
+You can access the live application by visiting the URL:
+`https://contact-mgmt-app.vercel.app/`
+
 ## Things to Know
 
 This project was implemented with react typescript library. It makes use of TailwindCSS, React Router v6, redux, axios, and React Query. The objectives of this application include:
