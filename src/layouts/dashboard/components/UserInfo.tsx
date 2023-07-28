@@ -16,7 +16,7 @@ const UserInfo = () => {
           as="strong"
           className="sm font-bold text-contact-shades-gray-4 capitalize whitespace-nowrap"
         >
-          Promise Jesus
+          Promise Udo
         </Typography>
         <Typography
           as="span"
