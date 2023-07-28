@@ -8,7 +8,8 @@ const Header = () => {
   return (
     <>
       <header className="w-full   min-w-0 flex justify-between px-5 py-2.5 items-center max-h-12 gap-[86px] sm:py-3 sm:px-8 sm:max-h-[76px] lg:max-h-[64px] lg:border-b border-b-contact-shades-gray-1 lg:justify-end">
-        <Link to="/app/dashboard" className="scale-95 lg:hidden">
+        <Link to="/contacts" className="scale-95 lg:hidden">
+          {/* display the logo  */}
           <img
             src="/contact-logo.png"
             alt="logo"
@@ -22,6 +23,7 @@ const Header = () => {
           <Notifications />
         </div>
         <div className="md:hidden">
+          {/* display the mobile menu */}
           <MobileMenu menuOptions={MENU_ITEMS} />
         </div>
       </header>
