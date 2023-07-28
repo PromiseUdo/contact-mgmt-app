@@ -5,7 +5,7 @@ This is a frontend implementation of a contact management app, which enables a u
 This also includes a landing page for the application, which includes buttons redirecting to the contact page and the charts and maps page.
 
 You can access the live application by visiting the URL:
-`https://contact-mgmt-app.vercel.app/`
+https://contact-mgmt-app.vercel.app/
 
 ## Things to Know
 
@@ -35,7 +35,7 @@ The APIs used in this application include
 
 #### Charts and Maps API
 
-- Base URL: `https://disease.sh/v3/covid-19`
+- Base URL: https://disease.sh/v3/covid-19
 
 Endpoints
 
@@ -53,7 +53,7 @@ Endpoints
   "iso3": "AFG",
   "lat": 33,
   "long": 65,
-  "flag": "https://disease.sh/assets/img/flags/af.png"
+  "flag": https://disease.sh/assets/img/flags/af.png
   },
   "cases": 224135,
   "todayCases": 0,
@@ -85,7 +85,7 @@ Endpoints
   "iso3": "ALB",
   "lat": 41,
   "long": 20,
-  "flag": "https://disease.sh/assets/img/flags/al.png"
+  "flag": https://disease.sh/assets/img/flags/al.png
   },
   "cases": 334726,
   "todayCases": 0,
@@ -170,7 +170,7 @@ Below are the instructions on how to set up and run the application locally
 
 Before running the application, make sure you have the following installed on your computer
 
-1.  Node.js and npm (Node Package Manager): You can download and install Node.js from the official website here.
+1.  Node.js and npm (Node Package Manager): You can download and install Node.js from the official website here. https://nodejs.org/en/download
 
 #### Getting Started
 
