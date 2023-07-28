@@ -172,6 +172,7 @@ Before running the application, make sure you have the following installed on yo
 #### Getting Started
 
 1.  Clone the repositiory to your local machine
+    `https://github.com/PromiseUdo/contact-mgmt-app.git`
 2.  Navigate to the project directory
     `cd contact-mgmt-app`
 3.  Install the required dependencies
