@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --overlay-bg: #00292dbf;
+  --gray-100: #e2e7e9;
+  --gray-200: #c6cfd2;
+  --gray-400: #a9b7bc;
+  --teal-80: #33b3be;
+  --teal-100: #00a0ae;
+  --dark-teal-80: #537f90;
+  --red-500: #e55846;
+  --red-600: #b32b19;
+  --green-100: #2fb574;
+  --shades-black: #181818;
+  --shades-gray-3: #535c5f;
+  --shades-gray-25: #979797;
+  --shades-gray-2: #b0bdc1;
+  --shades-gray-1: #e5f0f3;
+  --shades-white: #fff;
+  --shades-bg: #edf5f5;
+  --border: #d9d9d980;
+  --shadow: 0 4px 24px #0404040d;
+  --overlay: blur(8px);
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
