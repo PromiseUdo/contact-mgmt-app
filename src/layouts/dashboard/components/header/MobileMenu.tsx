@@ -18,7 +18,7 @@ const MobileMenu = (props: MobileMenuProps) => {
 
   const { menuOptions } = props;
   return (
-    <div className="max-w-full">
+    <div className=" max-w-full">
       <button onClick={toggleDrawer} className="scale-95">
         {showDrawer ? (
           <iconComponents.dashboard.CancelIcon
@@ -39,7 +39,7 @@ const MobileMenu = (props: MobileMenuProps) => {
           display: showDrawer ? "block" : "none",
           transform: showDrawer ? "translateX(0)" : "translateX(150vw)",
         }}
-        className="w-screen fixed top-12 left-0 right-0 z-30 bg-white max-h-screen min-h-[calc(100vh_-_48px)] overflow-auto transition-transform"
+        className="w-screen fixed top-10 sm:top-16 md:top-12 left-0 right-0 z-30 bg-white max-h-screen min-h-[calc(100vh_-_48px)] overflow-auto transition-transform"
       >
         <div className="py-4 px-6 w-full min-h-[calc(100vh_-_48px)] flex flex-col">
           <nav className="w-full">
