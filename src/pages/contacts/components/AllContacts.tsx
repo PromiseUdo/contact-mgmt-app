@@ -139,7 +139,7 @@ const AllContacts = (props: ContactProps) => {
     <div className="w-full overflow-hidden flex flex-col bg-contact-shades-white pb-6 rounded-lg !mb-10">
       <div className="w-full max-w-full min-h-[584px] max-h-[784px] overflow-y-hidden">
         {data.length === 0 ? (
-          <div className="w-full h-full mt-16 flex justify-center items-center">
+          <div className="w-full h-full mt-16 p-6 flex justify-center items-center">
             <EmptyComponent
               title="No Members yet"
               subtitle="You have not added a contact to this platform yet"
